@@ -7,8 +7,9 @@
     <title>BadWords</title>
 </head>
 <body>
+    <p>
     <?php 
-    $paragraph="<p>Ciao utente, come va?</p>"; 
+    $paragraph="Ciao utente, come va?"; 
     echo($paragraph);
     echo(strlen($paragraph));
     $badWord=$_GET["badWord"];
@@ -16,5 +17,6 @@
     echo($paragraph);
     echo(strlen($paragraph));
     ?>
+    </p>
 </body>
 </html>
